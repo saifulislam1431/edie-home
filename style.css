@@ -1,5 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;800&family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 *{
     font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
 }
+.container{
+    padding: 30px 40px;
+}
+/* Navbar style start */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 800;
+    line-height: 52.88px;
+    color: #333333;
+}
+
+.nav-items{
+      list-style: none;
+      display: flex;
+}
+.nav-items a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: #333333;
+    font-weight: 500;
+}
+/* Navbar style end */
