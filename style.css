@@ -1,35 +1,112 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;800&family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
-*{
+* {
     font-family: 'Poppins', sans-serif;
     padding: 0;
     margin: 0;
 }
-.container{
+
+.container {
     padding: 30px 40px;
 }
+
 /* Navbar style start */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo{
+.logo {
     font-family: 'Heebo', sans-serif;
     font-weight: 800;
     line-height: 52.88px;
     color: #333333;
 }
 
-.nav-items{
-      list-style: none;
-      display: flex;
+.nav-items {
+    list-style: none;
+    display: flex;
 }
-.nav-items a{
+
+.nav-items a {
     text-decoration: none;
     margin-right: 30px;
     color: #333333;
     font-weight: 500;
 }
+
 /* Navbar style end */
+
+/* Banner section */
+#banner {
+    margin-top: 90px;
+
+}
+
+.banner-head,
+.banner-foot {
+    margin-left: 200px;
+}
+
+.banner-head a {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #2D9CDB;
+}
+
+.title {
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 50px;
+    color: #333333;
+}
+
+.hero-img {
+    width: 1200px;
+    height: 350px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 18px;
+}
+
+.description {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    margin-right: 650px;
+    font-weight: 400;
+    color: #4F4F4F;
+}
+
+#email {
+    margin-top: 20px;
+    width: 300px;
+    height: 57px;
+    border: none;
+    outline: none;
+    background-color: #F2F2F2;
+    border-radius: 12px;
+    padding: 0 20px;
+}
+
+#email::placeholder {
+    font-weight: 500;
+    color: #BDBDBD;
+}
+
+#join {
+    position: absolute;
+    right: 686px;
+    top: 1126px;
+    width: 94px;
+    height: 49px;
+    outline: none;
+    border: none;
+    background: #2D9CDB;
+    color: #F2F2F2;
+    font-weight: 500;
+    border-radius: 12px;
+}
+/* Banner section style added */
