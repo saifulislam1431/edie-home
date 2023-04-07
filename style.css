@@ -428,8 +428,8 @@ nav {
         line-height: 40px;
     }
     
-    .footer {
-        flex-direction: column;
+    .footer-info{
+       flex-direction: column;
     }
 
   

@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://reliable-tulumba-9000dd.netlify.app/">
+    <a href="https://neon-malabi-5f161f.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/saifulislam1431/my-team-page">
+    <a href="https://github.com/saifulislam1431/edie-home">
       Solution
     </a>
     <span> | </span>
@@ -36,12 +36,13 @@
 
 ## Overview
 
-![screenshot](https://api.pikwy.com/web/6413f897d7ff195cfb211ac6.jpg)
+![screenshot](https://api.pikwy.com/web/643005cbbae4a119cf3752e3.jpg)
+![screenshot](https://api.pikwy.com/web/643006a52f49e2344d2c3ef9.jpg)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
 - Where can I see your demo?
-  --> If want to see demo then please follow this url(https://reliable-tulumba-9000dd.netlify.app/)
+  --> If want to see demo then please follow this url(https://neon-malabi-5f161f.netlify.app/)
 
 ### Built With
 
@@ -49,6 +50,7 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 - HTML5
 - Vanilla CSS
+- JS
 
 
 ## Features
