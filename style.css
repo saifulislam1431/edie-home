@@ -288,11 +288,21 @@ nav {
     height: 385px;
     width: 100%;
     background: #100E1D;
+    color: #F2F2F2;
+
+}
+.footer-info{
+    height: 80%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: #F2F2F2;
-
+}
+.footer-details{
+    text-align: center;
+}
+.link{
+    font-weight: 700;
+    color: #BDBDBD;
 }
 
 .link-des {
