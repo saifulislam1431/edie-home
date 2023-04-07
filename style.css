@@ -17,6 +17,7 @@
 /* Navbar style start */
 nav {
     display: flex;
+   
     justify-content: space-between;
     align-items: center;
 }
@@ -39,6 +40,10 @@ nav {
     color: #333333;
     font-weight: 500;
 }
+#btn-close,#btn-open{
+  display: none;       
+}
+
 
 /* Navbar style end */
 
@@ -265,6 +270,7 @@ nav {
     display: flex;
     align-items: center;
     gap: 20px;
+    margin-bottom: 50px;
 }
 
 .client-img {
@@ -278,20 +284,143 @@ nav {
 /* testimonial section end */
 
 /* Footer style */
-.footer{
+.footer {
     height: 385px;
-width: 100%;
-background: #100E1D;
-display: flex;
-justify-content: space-around;
-align-items: center;
-color: #F2F2F2;
+    width: 100%;
+    background: #100E1D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #F2F2F2;
 
 }
-.link-des{
+
+.link-des {
     color: #F2F2F2;
     text-decoration: none;
 }
-.menu-item{
+
+.menu-item {
     list-style: none;
+}
+
+/* Footer end */
+
+
+/* Responsive layout */
+
+@media screen and (max-width:768px) {
+    .container {
+        padding: 20px 20px;
+    }
+    
+    .second-container {
+        padding: 20px 30px;
+    }
+    .nav-items{
+        display: none;
+        position: absolute;
+        padding-top: 20px;
+        text-align: center;
+        width: 90%;
+        top: 100px;
+        background-color: #333333;
+    }
+    .nav-items a{
+        color: #F2F2F2;
+    }
+    .section-title {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 50px;
+
+    }
+    .banner-head,
+    .banner-foot {
+        margin-left: 10px;
+    }
+    
+    .title {
+        font-size: 30px;
+    }
+    
+    .hero-img {
+        width: 100%;
+        height: 150px;
+        border-radius: 10px;
+    }
+    
+    .description {
+
+        margin-right: 10px;
+    }
+    
+    #email {
+        margin-top: 20px;
+        width: 200px;
+    }
+    .card-container {
+
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    
+    .designs {
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    
+    .design-img {
+        width: 270px;
+        height: 270px;
+    }
+    
+    
+    #design3 {
+        position: static;
+        bottom: 0px;
+    }
+    
+    #design2 {
+        position: static;
+        top: 0px;
+    }
+    
+    .see-more {
+        color: #2D9CDB;
+        text-align: left;
+    }
+    .my-team {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .team-img {
+        width: 120px;
+        height: 120px;
+        border-radius: 24px;
+    }
+    .heading {
+        font-size: 18px;
+
+        line-height: 40px;
+    }
+    
+    .footer {
+        flex-direction: column;
+    }
+
+    #btn-close,#btn-open{
+        display: block; 
+        background-color: transparent;
+        font-size: 25px;
+        padding: 0px 30px;
+        border: none;
+        color: #333333;
+      }
+      #btn-close{
+        color: red;
+        display: none;
+      }
+
+    
 }
