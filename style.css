@@ -317,6 +317,18 @@ nav {
     .second-container {
         padding: 20px 30px;
     }
+    #btn-close,#btn-open{
+        display: block; 
+        background-color: transparent;
+        font-size: 25px;
+        padding: 0px 30px;
+        border: none;
+        color: #333333;
+      }
+      #btn-close{
+        color: red;
+        display: none;
+      }
     .nav-items{
         display: none;
         position: absolute;
@@ -325,6 +337,7 @@ nav {
         width: 90%;
         top: 100px;
         background-color: #333333;
+        border-radius: 20px;
     }
     .nav-items a{
         color: #F2F2F2;
@@ -409,18 +422,7 @@ nav {
         flex-direction: column;
     }
 
-    #btn-close,#btn-open{
-        display: block; 
-        background-color: transparent;
-        font-size: 25px;
-        padding: 0px 30px;
-        border: none;
-        color: #333333;
-      }
-      #btn-close{
-        color: red;
-        display: none;
-      }
+  
 
     
 }
