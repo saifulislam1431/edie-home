@@ -201,52 +201,77 @@ nav {
     margin-bottom: 15px;
 }
 
-#design3{
+#design3 {
     position: relative;
     bottom: 150px;
 }
-#design2{
+
+#design2 {
     position: relative;
     top: 150px;
 }
-.see-more{
+
+.see-more {
     color: #2D9CDB;
     text-align: right;
 }
+
 /*Design section end  */
 
 /* Team section style */
-.my-team{
+.my-team {
     display: flex;
     align-items: center;
     gap: 100px;
 }
-.team{
+
+.team {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.team-img{
+
+.team-img {
     width: 250px;
     height: 250px;
     border-radius: 24px;
 }
 
-.team-intro{
+.team-intro {
 
-font-size: 18px;
-font-weight: 500;
-line-height: 27px;
-color: #EB5757;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #EB5757;
 
 
 }
-.team-title{
-    color: #333333;
 
-font-size: 30px;
+.team-title {
+    color: #333333;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 54px;
+}
+
+/*  */
+.heading{
+
+font-size: 25px;
 font-weight: 500;
 line-height: 54px;
-
+margin-bottom: 20px;
+color: #333333;
+}
+.client{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.client-img{
+    width: 100px;
+height: 100px;
+border-radius: 20px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
 
 }
